@@ -1,1 +1,35 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container {
+	background-color: white;
+	max-width: 600px ;
+	align: center;
+}
+
+#topbar {
+	background-color: brown;
+	max-width: 600px ;
+	Height: 220px ;
+	background-image: url("pics/coffey.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom ;
+	text-align: right; 
+	
+}
+
+#menu {
+	background-color: brown;
+}
+
+#menu li {
+	list-style-type: none;
+	display: inline;
+}
+
+#menu li a {
+	display: block;
+	background-color: black;
+	display: inline;
+}		
+
+#menu ul li {
