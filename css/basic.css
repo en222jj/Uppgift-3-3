@@ -1,35 +1,195 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
+@charset "utf-8";
+
+/* colors:
+rgb(234,231,214) beige ljus
+rgb(081,071,061) beige mörk
+rgb(121,112,102) beige mellan
+rgb(206,202,185) border
+*/
+
+
 #container {
-	background-color: white;
-	max-width: 600px ;
+	background-color: rgb(081,071,061);
+	max-width: 602px ;
 	align: center;
+	margin: 0 auto;
+	overflow: auto;
+	margin-top: 100px;
 }
 
 #topbar {
-	background-color: brown;
+	background-color: rgb(081,071,061);
 	max-width: 600px ;
 	Height: 220px ;
 	background-image: url("pics/coffey.jpg");
 	background-repeat: no-repeat;
 	background-position: bottom ;
-	text-align: right; 
-	
+	text-align: right; 	
+	color: rgb(234,231,214);
+}
+
+#maincontent a {
+	display: none;
+}
+
+#menu a {
+	display: none;
 }
 
 #menu {
-	background-color: brown;
+	background-color: rgb(081,071,061);
+	Height: 31px;
+	position: relative;
+	top: 0px;
+	margin: 0;
+	
 }
 
 #menu li {
 	list-style-type: none;
 	display: inline;
+	margin: 0;
+		
+}
+
+#menu ul a {
+	padding-top: 30px;
+	margin: 0;
 }
 
 #menu li a {
-	display: block;
-	background-color: black;
+	display: block; 
+	background-color: rgb(121,112,102);
 	display: inline;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px rgb(234,231,214);
+	margin: 0;
 }		
 
+#menu a:focus { color:green; }
+#menu li.active a{ background-color:rgb(234,231,214); }
+#menu li.active a{ color:rgb (121,112,102); }
+#menu li.active a{ padding-bottom: 10px; }
+#menu li.active a{ border-top: 2px solid rgb(081,071,061); }
+
+
+#menu ul {
+	
+	height: 15px;
+	margin-top: 3px ;
+	margin-bottom: 0;
+	padding: 0;
+	padding-top: 8px;
+
+}
+
 #menu ul li {
+	
+}
+
+#content {
+	margin: 0 auto;
+	overflow: auto;
+	border-left: 1px rgb(206,202,185) solid;
+	border-right: 1px rgb(206,202,185) solid;
+	border-bottom: 1px rgb(206,202,185) solid;
+	border-top: 2px white solid;
+	background-color: rgb(234,231,214);
+	padding: 8px;
+	width-max: 800px;
+	height: 380px;
+	Border-top: 1px solid white;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 0.9em;
+	color:rgb(121,112,102);
+}
+
+#maincontent h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	
+}
+
+#maincontent p {
+	line-height: 1.4em;
+}
+
+#subcontent h1 {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 4px;
+}
+	
+#subcontent p {
+	font-size: 0.7em;
+	line-height: 2em;
+	padding-left: 5px;
+}
+
+#maincontent {
+	margin: 0 auto;
+	float: left;
+	width: 360px;
+	height: 380px;
+	padding: 0;
+		
+}
+#subcontent {
+	margin: 0 auto;
+	float: right;
+	width: 200px;
+	border-left: dashed 1px rgb(206,202,185);
+	padding-left: 4px;	
+}
+
+
+#subcontent h2 {
+	padding-top: 15px;
+	font-size: 1em;
+	font-family: "Times New Roman", Times, serif;
+	padding: 0;
+	margin: 0;
+	padding-left: 4px;
+	padding-bottom: 4px;
+}
+
+#subcontent ul {
+	list-style: none;
+	align: left;
+	padding-left: 4px;
+	margin: 0;		
+	line-height: 1.4em;
+	padding-bottom: 30px;
+}
+
+#subcontent a { 
+	color: rgb(081,071,061); 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#bottomcontent {
+	position: relative;
+	bottom: 0;
+	height: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+	color: rgb (121,112,102);
+	
+}	
+
+#maincontent img {
+	float: left;
+	padding-right: 5px;
+}
+
+
