@@ -22,12 +22,23 @@ rgb(206,202,185) border
 #topbar {
 	background-color: rgb(081,071,061);
 	max-width: 600px ;
-	Height: 220px ;
+	Height: 215px ;
 	background-image: url("pics/coffey.jpg");
 	background-repeat: no-repeat;
 	background-position: bottom ;
 	text-align: right; 	
 	color: rgb(234,231,214);
+	font-style: italic;
+	font-size: 0.7em;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	margin:0;
+	border-top: 1px solid rgb(206,202,185);
+	border-right: 1px solid rgb(206,202,185);
+	border-left: 1px solid rgb(206,202,185);
+	
 }
 
 #maincontent a {
@@ -44,6 +55,8 @@ rgb(206,202,185) border
 	position: relative;
 	top: 0px;
 	margin: 0;
+	margin-left: 15px;
+	margin-bottom: px;
 	
 }
 
@@ -67,24 +80,26 @@ rgb(206,202,185) border
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-top: 5px;
+	padding-top: 7px;
 	padding-bottom: 5px;
-	border-top: 1px rgb(234,231,214);
-	margin: 0;
+	border-top: 1px solid grey;
+	margin-right:-3px ;
+	font-family: Arial, Helvetica, sans-serif;
+	color:rgb(234,231,214);
+	font-size: 0.9em;
 }		
 
 #menu a:focus { color:green; }
 #menu li.active a{ background-color:rgb(234,231,214); }
-#menu li.active a{ color:rgb (121,112,102); }
+#menu li.active a{ color:rgb(121,112,102); }
 #menu li.active a{ padding-bottom: 10px; }
 #menu li.active a{ border-top: 2px solid rgb(081,071,061); }
 
 
 #menu ul {
-	
+	margin: 0;
 	height: 15px;
 	margin-top: 3px ;
-	margin-bottom: 0;
 	padding: 0;
 	padding-top: 8px;
 
@@ -104,7 +119,7 @@ rgb(206,202,185) border
 	background-color: rgb(234,231,214);
 	padding: 8px;
 	width-max: 800px;
-	height: 380px;
+	height: 370px;
 	Border-top: 1px solid white;
 	font-family: Arial, Helvetica, sans-serif;	
 	font-size: 0.9em;
@@ -122,7 +137,7 @@ rgb(206,202,185) border
 }
 
 #subcontent h1 {
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-bottom: 15px;
 	font-size: 1em;
 	font-weight: normal;
@@ -139,27 +154,41 @@ rgb(206,202,185) border
 	margin: 0 auto;
 	float: left;
 	width: 360px;
-	height: 380px;
+	height: 340px;
 	padding: 0;
 		
 }
 #subcontent {
 	margin: 0 auto;
 	float: right;
-	width: 200px;
+	width: 215px;
 	border-left: dashed 1px rgb(206,202,185);
 	padding-left: 4px;	
+	float: left;
+	Height: 340px;
+	padding-top: 10px;
 }
 
+#subcontent h1 {
+	color: rgb(081,071,061);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.1em;
+}	
 
 #subcontent h2 {
-	padding-top: 15px;
+	padding-top: 20px;
 	font-size: 1em;
 	font-family: "Times New Roman", Times, serif;
 	padding: 0;
 	margin: 0;
 	padding-left: 4px;
 	padding-bottom: 4px;
+	font-weight: normal;
+	color: rgb(081,071,061);
+}
+
+#subcontent p {
+	padding-bottom: 20px;
 }
 
 #subcontent ul {
@@ -180,10 +209,12 @@ rgb(206,202,185) border
 	position: relative;
 	bottom: 0;
 	height: 10px;
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-bottom: 10px;
 	margin: 0;
 	color: rgb (121,112,102);
+	font-style: italic;
+	font-size: 0.8em;
 	
 }	
 
